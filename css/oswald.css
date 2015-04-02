@@ -302,3 +302,133 @@ h6 {
 .input-group-addon {
 	padding: 4px 12px;
 }
+
+.input-group-addon:first-child {
+	border-radius: 0;
+	border: 0;
+	background-color: #E7E7E7;
+}
+
+a {
+	color: #779ECB
+}
+
+.nav-tabs > li > a {
+	border-radius: 0;
+}
+
+.dropdown-menu {
+	border-radius: 0;
+	border-width: 0 1px 3px 1px;
+	border-color: #E7E7E7;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+	border-color: #779ECB;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background-color: #779ECB;
+	border-radius: 0;
+}
+
+.pagination {
+	border-radius: 0px;
+}
+
+.pagination > li > a,
+.pagination > li:first-child > a,
+.pagination > li:last-child > a {
+	border-width: 0 1px 3px 1px;
+	border-radius: 0px;
+	background-color: #f8f8f8;
+	border-color: rgba(0, 0, 0, 0.10);
+	color: #000000;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #779ECB;
+	border-color: rgba(0, 0, 0, 0.10);
+}
+
+.pager li > a,
+.pager li > span {
+	border-width: 0 1px 3px 1px;
+	border-radius: 0px;
+	background-color: #f8f8f8;
+	color: #000000;
+	border-color: rgba(0, 0, 0, 0.10)
+}
+
+.alert-warning,
+.alert-warning .alert-link {
+	border-width: 0 1px 3px 1px;
+	border-radius: 0px;
+	background-color: #FFB347;
+	border-color: rgba(0, 0, 0, 0.10);
+	color: #ffffff;
+}
+
+.alert-danger,
+.alert-danger .alert-link {
+	border-width: 0 1px 3px 1px;
+	border-radius: 0px;
+	background-color: #FF6961;
+	border-color: rgba(0, 0, 0, 0.10);
+	color: #ffffff;
+}
+
+.alert-success,
+.alert-success .alert-link {
+	border-width: 0 1px 3px 1px;
+	border-radius: 0px;
+	background-color: #77DD77;
+	border-color: rgba(0, 0, 0, 0.10);
+	color: #ffffff;
+}
+
+.alert-info,
+.alert-info .alert-link {
+	border-width: 0 1px 3px 1px;
+	border-radius: 0px;
+	background-color: #B19CD9;
+	border-color: rgba(0, 0, 0, 0.10);
+	color: #ffffff;
+}
+
+.label {
+	border-radius: 3px;
+}
+
+.label-default {
+	background-color: #999999;
+}
+
+.label-primary {
+	background-color: #779ECB;
+}
+
+.label-success {
+	background-color: #77DD77;
+}
+
+.label-warning {
+	background-color: #FFB347;
+}
+
+.label-info {
+	background-color: #B19CD9;
+}
+
+.label-danger {
+	background-color: #FF6961;
+}
