@@ -329,6 +329,10 @@ a {
 	border-color: #779ECB;
 }
 
+.nav-pills > li > a {
+	border-radius: 0;
+}
+
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
@@ -431,4 +435,51 @@ a {
 
 .label-danger {
 	background-color: #FF6961;
+}
+
+.progress {
+	border-radius: 0;
+	height: 10px;
+	box-shadow: inset 0 px 0 rgba(0, 0, 0, 0.07);
+}
+
+.progress-bar {
+	border-width: 0 1px 3px 1px;
+	box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.10);
+	background-color: #779ECB;
+	height: 100%;
+}
+
+.progress-bar-info {
+	background-color: #B19CD9;
+}
+
+.progress-bar-success {
+	background-color: #77DD77;
+}
+
+.progress-bar-warning {
+	background-color: #FFB347;
+}
+
+.progress-bar-danger {
+	background-color: #FF6961
+}
+
+.container .jumbotron {
+	border-radius: 0;
+}
+
+.jumbotron {
+	border: 1px solid rgba(0, 0, 0, 0.07);
+	box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.07);
+	background-color: #f5f5f5;
+}
+
+.list-group-item:first-child {
+	border-radius: 0;
+	box-shadow: inset 0 4px 0 rgba(0, 0, 0, 0.07);
+}
+.list-group-item:last-child {
+	border-radius: 0;
 }
