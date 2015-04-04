@@ -1,3 +1,3 @@
 # Oswald-Bootstrap
 Oswald Bootstrap theme by 0swin  
-Check out the [Demo](https://github.com/0swin/Oswald-Bootstrap)
+Check out the [Demo](http://0swin.github.io/Oswald-Bootstrap/)
