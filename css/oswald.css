@@ -1,4 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Fira+Sans|Oswald);
+@import url(//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
 body {
 	font-family: 'Fira Sans', sans-serif;
 }
